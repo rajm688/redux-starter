@@ -1,0 +1,13 @@
+1. redux is a state management library for javascript applications
+2. can be  used in js, react,angular,vue etc,.
+3. eg: in fb when we change our profile pic. it will be updated in all our post. 
+4. mainly build based on functional programming where variables are immmutable
+5. three main things in redux
+    * reducer -> takes the current instance  of the value and returns the updated one
+        * reducer contains two things
+            * state -> which is the instance of the variable
+            * action ->js object which describes what just happened. it tells reducer which property of the value to be changed
+6. Store which stores all the state in one place
+
+6. view (UI) ---> Action(dispatches action obj) ---> store <---> Reducer(updates value based on action annd returns updated value to store) 
+                                
